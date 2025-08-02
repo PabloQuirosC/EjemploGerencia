@@ -28,3 +28,10 @@ if edad>=18:
     print(f"{nombre} tiene {edad} es mayor de edad")
 else:
     print(f"{nombre} tiene {edad} es menor de edad")
+# ingresar numero y determinar si es multiplo de 5 o no es
+numero=int(input("Ingrese un numero :"))
+if numero%5==0:
+    print(f"El {numero} es Multiplo de 5")
+else:
+    print(f"El {numero} no es multiplo de 5")
+# ingesar nombre y edad y determinar si la persona es mayor de edad o menor
